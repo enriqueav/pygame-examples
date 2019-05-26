@@ -19,7 +19,7 @@ python bouncing_balls.py [number_of_balls]
 ```
 ![Capture01](https://github.com/enriqueav/pygame-examples/raw/master/images/bouncing.gif)
 
-### paralax_city.py
+## Parallax Examples
 
 *Parallax scrolling is a technique in computer graphics 
 where background images move past the camera more slowly 
@@ -29,11 +29,30 @@ the virtual experience.[1] The technique grew out of
 the multiplane camera technique used in traditional 
 animation since the 1930s.* From [wikipedia](https://en.wikipedia.org/wiki/Parallax_scrolling)
 
+### parallax_city.py
+
 This example programmatically creates a moving background with three layers.
 
 To run:
 
 ```python
-python paralax_city.py
+python parallax_city.py
 ```
-![Capture02](https://github.com/enriqueav/pygame-examples/raw/master/images/paralax_city.gif)
+![Capture02](https://github.com/enriqueav/pygame-examples/raw/master/images/parallax_city.gif)
+
+
+### paralax_beach.py
+
+This example programmatically creates three layers of sea and three layers of sand.
+They follow an smooth sine curve.
+
+I **do not** recommend drawing curves as a series of bars like this example, 
+it is too slow to process. I have not figured out
+the best way to do it in pygame yet.
+
+To run:
+
+```python
+python parallax_beach.py
+```
+![Capture03](https://github.com/enriqueav/pygame-examples/raw/master/images/parallax_beach.gif)
