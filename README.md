@@ -41,7 +41,7 @@ python parallax_city.py
 ![Capture02](https://github.com/enriqueav/pygame-examples/raw/master/images/parallax_city.gif)
 
 
-### paralax_beach.py
+### parallax_beach.py
 
 This example programmatically creates three layers of sea and three layers of sand.
 They follow an smooth sine curve.
@@ -56,3 +56,16 @@ To run:
 python parallax_beach.py
 ```
 ![Capture03](https://github.com/enriqueav/pygame-examples/raw/master/images/parallax_beach.gif)
+
+### waves.py
+
+Similar to the waves in parallax_beach, but created in a more efficient way.
+Also introduces several other concepts like random inialization and random 
+change of the color of each wave.
+
+To run:
+
+```python
+python waves.py
+```
+![Capture04](https://raw.githubusercontent.com/enriqueav/pygame-examples/master/images/waves1.gif)
